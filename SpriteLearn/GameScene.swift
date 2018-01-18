@@ -35,7 +35,7 @@ class GameScene : SKScene {
         self.addChild(label) // sceneにテキストノードを追加
     }
     
-    func newHelloNode(_: Void) -> SKLabelNode {
+    func newHelloNode() -> SKLabelNode {
         let helloNode = SKLabelNode(text: "Hello, World!")
         helloNode.fontColor = UIColor(red: 1.0, green:1.0, blue: 1.0, alpha: 1)
         helloNode.fontSize = 60
